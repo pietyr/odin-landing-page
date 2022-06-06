@@ -1,3 +1,10 @@
+:root {
+	--dark: #1f2937;
+	--white: #f9faf8;
+	--gray: #e5e7eb;
+	--blue: #3882f6;
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -8,8 +15,39 @@ html {
 	box-sizing: inherit;
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	font-family: "Roboto", sans-serif;
+	background-color: var(--dark);
+}
+
+nav {
+	display: flex;
+	width: 1400px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	gap: 32px;
+}
+
+.links a {
+	color: var(--gray);
+}
+
+.links a:hover {
+	color: var(--white);
+	text-decoration: underline;
+}
+
+h1 a {
+	color: var(--white);
 }
