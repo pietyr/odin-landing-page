@@ -117,13 +117,13 @@ h3 {
 	padding: 32px 0;
 }
 
-figure {
+.gallery figure {
 	width: 200px;
 	margin: 0;
 	padding: 0;
 }
 
-figure img {
+.gallery figure img {
 	display: block;
 	border: 3px solid var(--blue);
 	border-radius: 10px;
@@ -132,6 +132,35 @@ figure img {
 	object-fit: cover;
 }
 
-figcaption {
+.gallery figcaption {
 	margin-top: 16px;
+}
+
+.quote {
+	padding: 128px 32px;
+	background-color: var(--gray);
+}
+
+.quote figure {
+	max-width: var(--content-width);
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.quote blockquote {
+	margin: 0;
+	padding: 0;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 300;
+	text-align: justify;
+}
+
+blockquote p {
+	margin: 0;
+}
+
+.quote figcaption {
+	font-weight: 700;
+	text-align: right;
 }
