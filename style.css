@@ -200,3 +200,13 @@ a.button:hover {
 	background-color: var(--white);
 	color: var(--blue);
 }
+
+footer {
+	text-align: center;
+	padding: 32px;
+	color: var(--white);
+}
+footer p {
+	margin: 0;
+	padding: 0;
+}
