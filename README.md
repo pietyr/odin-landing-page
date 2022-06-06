@@ -1,5 +1,7 @@
 # Landing Page
 
+[Live version](https://pietyr.github.io/odin-landing-page/)
+
 This is my implementation of [**Project: Landing Page**](https://www.theodinproject.com/lessons/foundations-landing-page) from [The Odin Project](https://www.theodinproject.com/).
 
 ## Target design
