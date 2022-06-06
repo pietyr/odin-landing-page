@@ -59,6 +59,7 @@ nav {
 
 h1 a {
 	color: var(--white);
+	font-weight: 700;
 }
 
 header {
@@ -90,4 +91,47 @@ header h2 {
 	text-align: center;
 	padding: 8px;
 	border-radius: 10px;
+}
+
+main {
+	background-color: var(--white);
+	color: var(--dark);
+}
+
+.information {
+	max-width: var(--content-width);
+	margin: 0 auto;
+	padding: 64px 32px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 32px 0;
+}
+
+figure {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+figure img {
+	display: block;
+	border: 3px solid var(--blue);
+	border-radius: 10px;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+figcaption {
+	margin-top: 16px;
 }
